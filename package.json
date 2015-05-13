@@ -1,0 +1,31 @@
+{
+  "name": "BPX",
+  "version": "0.0.1",
+  "description": "Blueprint for CSS.",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "gulp && gulp test:mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soulteary/BPX.git"
+  },
+  "keywords": [
+    "storage"
+  ],
+  "author": "soulteary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soulteary/BPX/issues"
+  },
+  "homepage": "https://github.com/soulteary/BPX",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-directory-sync": "^1.0.0",
+    "gulp-less": "^3.0.3",
+    "gulp-lint-everything": "^0.3.2",
+    "gulp-minify-css": "^1.1.0",
+    "gulp-rm": "^1.0.0"
+  }
+}
